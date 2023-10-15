@@ -1,0 +1,211 @@
+:root {
+    --product-black: #000000;
+    --product-white: #ffffff;
+    --product-grey: #808080;
+    --product-light-green: #7fcb5b;
+    --product-green: #32840c;
+    --product-yellow: #fffbb6;
+    --product-red: #ee1212;
+  }
+  
+  /* body {
+    font-family: "Poppins", Arial, sans-serif;
+  } */
+  
+  .product-card-3 {
+    border: 1px solid var(--product-black);
+    width: 450px;
+    padding: 16px;
+    position: relative;
+    /*margin: auto; /*pokud bys chtěl kartu jednoduše vycentrovat ;) */
+    
+  }
+  
+  .free-shipping-badge-3 {
+    background-color: var(--product-green);
+    color: var(--product-white);
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    padding: 6px;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+  }
+  
+  .product-of-the-year-badge-3 {
+    background-color: var(--product-yellow);
+    color: var(--product-grey);
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    padding: 6px;
+    position: absolute;
+    margin-top: 40px;
+    left: 0px;
+    z-index: 2;
+  }
+  
+  .discount-badge-3 {
+    background-color: var(--product-red);
+    color: var(--product-white);
+    font-weight: bold;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 25px;
+    z-index: 2;
+  }
+  
+  .product-image-container-3 {
+    height: 350px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-image-container-3 img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .rating-star-container-3 {
+    position: relative;
+    display: flex;
+  }
+  
+  .rating-value-3 {
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 2px;
+  }
+  
+  .rating-users-3 {
+    color: var(--product-grey);
+    text-decoration: underline;
+    padding-left: 8px;
+    padding-top: 2px;
+    cursor: pointer;
+  }
+
+  .product-variant-wrapper-3 {
+    margin-top: 8px;
+  }
+  
+  .product-variant-group-3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-variant-label-3 {
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+  
+  .product-variant-radio-3 {
+    cursor: pointer;
+  }
+  
+  .product-variant-title-3 {
+    color: var(--product-grey);
+  }
+  
+  .product-variant-group-3 img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-availability-wrapper-3 {
+    background-color: var(--product-light-green);
+    border-radius: 5px 5px;
+    padding: 8px;
+    margin-top: 12px;
+    max-width: fit-content;
+    cursor: pointer;
+  }
+  
+  .product-availability-label-3 {
+    color: var(--product-green);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .product-price-order-container-3 {
+    position: relative;
+  }
+  
+  .product-price-action-disclaimer-3 {
+    background-color: var(--product-yellow);
+    width: 120px;
+    border-radius: 5px 5px 0 0;
+    padding: 8px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-price-action-disclaimer-label-3 {
+    color: var(--product-grey);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .product-price-wrapper-3,
+  .product-discount-wrapper-3 {
+    background-color: var(--product-red);
+    width: 120px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-discount-wrapper-3 {
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .product-price-value-3 {
+    color: var(--product-white);
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .product-discount-3 {
+    color: var(--product-white);
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .product-tax-free-3 {
+    width: 120px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-tax-free-label-3 {
+    color: var(--product-grey);
+    font-size: 12px;
+  }
+  
+  .product-add-to-cart-wrapper-3 {
+    background-color: var(--product-green);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-add-to-cart-3 {
+    color: var(--product-white);
+    font-weight: bold;
+  }
